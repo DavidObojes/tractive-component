@@ -2,20 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>A Tractive Component</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="Discover Tractive GPS trackers for dogs and cats — reliable location tracking and peace of mind for every pet owner.">
+  <title>A Tractive Category Component</title>
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <main>
-    <section class="banner">
-      <div class="banner-element">
-         <img />
-         <p>Explore our Products</p>
-         <h4>Pet trackers</h4>
-         <button>Dog Trackers</button>
-         <button>Cat Trackers</button>
+<main>
+  <section class="category-teaser" aria-labelledby="category-teaser-title">
+    <div class="category-teaser__item">
+      <div class="category-teaser__image">
+        <img src="images/pet-trackers.png" alt="Tractive GPS trackers for dogs and cats."/>
       </div>
-    </section>
-  </main>
+      <div class="category-teaser__content">
+        <div class="category-teaser__content-header">
+          <span class="category-teaser__content--tag">Explore our Products</span>
+          <h2 class="category-teaser__content--title" id="category-teaser-title">Pet Trackers</h2>
+        </div>
+        <div class="category-teaser__content--actions">
+          <a class="btn btn-primary" href="https://tractive.com/en/pd/gps-tracker-dog" target="_blank">Dog Trackers</a>
+          <a class="btn btn-primary" href="https://tractive.com/en/pd/gps-tracker-cat" target="_blank">Cat Trackers</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
 </body>
 </html>
